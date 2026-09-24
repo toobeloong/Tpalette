@@ -1,0 +1,80 @@
+{
+  "name": "tpalette",
+  "displayName": "TPalette",
+  "description": "12 款精选 VSCode 主题合集：莫兰迪柔和 + Dracula、Tokyo Night、Catppuccin、Nord、Solarized、Gruvbox、Synthwave、Everforest、GitHub Dark、One Dark Pro",
+  "version": "1.1.0",
+  "publisher": "toobeloong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toobeloong/tpalette"
+  },
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Theme"],
+  "keywords": ["tpalette", "theme pack", "morandi", "dracula", "tokyo night", "catppuccin", "nord", "solarized", "gruvbox", "synthwave", "everforest", "github dark", "one dark"],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Morandi Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/morandi-dark.json"
+      },
+      {
+        "label": "Morandi Soft Light",
+        "uiTheme": "vs",
+        "path": "./themes/morandi-light.json"
+      },
+      {
+        "label": "Dracula Official",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula.json"
+      },
+      {
+        "label": "Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night.json"
+      },
+      {
+        "label": "Catppuccin Mocha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha.json"
+      },
+      {
+        "label": "Nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nord.json"
+      },
+      {
+        "label": "Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-dark.json"
+      },
+      {
+        "label": "Gruvbox Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-dark.json"
+      },
+      {
+        "label": "Synthwave 84",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthwave-84.json"
+      },
+      {
+        "label": "Everforest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest-dark.json"
+      },
+      {
+        "label": "GitHub Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark.json"
+      },
+      {
+        "label": "One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-dark-pro.json"
+      }
+    ]
+  }
+}
