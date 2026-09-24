@@ -1,6 +1,10 @@
 .vscode/**
 .vscode-test/**
 generate_themes.py
+generate_originals.py
+generate_cyberpunk.py
+generate_previews.py
+previews/**
 *.py
 .gitignore
 .gitattributes
