@@ -1,8 +1,8 @@
 {
   "name": "tpalette",
   "displayName": "TPalette",
-  "description": "12 款精选 VSCode 主题合集：莫兰迪柔和 + Dracula、Tokyo Night、Catppuccin、Nord、Solarized、Gruvbox、Synthwave、Everforest、GitHub Dark、One Dark Pro",
-  "version": "1.1.0",
+  "description": "20 款精选 VSCode 主题合集：莫兰迪柔和 + 8 款原创主题 + Dracula、Tokyo Night、Catppuccin、Nord、Solarized、Gruvbox、Synthwave、Everforest、GitHub Dark、One Dark Pro",
+  "version": "1.2.0",
   "publisher": "toobeloong",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,7 @@
   },
   "engines": { "vscode": "^1.80.0" },
   "categories": ["Theme"],
-  "keywords": ["tpalette", "theme pack", "morandi", "dracula", "tokyo night", "catppuccin", "nord", "solarized", "gruvbox", "synthwave", "everforest", "github dark", "one dark"],
+  "keywords": ["tpalette", "theme pack", "morandi", "abyss blue", "twilight bloom", "aurora glow", "desert sand", "mint fresh", "lava flow", "sakura night", "steel blue", "dracula", "tokyo night", "catppuccin", "nord", "solarized", "gruvbox", "synthwave", "everforest", "github dark", "one dark"],
   "icon": "icon.png",
   "contributes": {
     "themes": [
@@ -74,6 +74,46 @@
         "label": "One Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/one-dark-pro.json"
+      },
+      {
+        "label": "Abyss Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abyss-blue.json"
+      },
+      {
+        "label": "Twilight Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/twilight-bloom.json"
+      },
+      {
+        "label": "Aurora Glow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-glow.json"
+      },
+      {
+        "label": "Desert Sand",
+        "uiTheme": "vs-dark",
+        "path": "./themes/desert-sand.json"
+      },
+      {
+        "label": "Mint Fresh",
+        "uiTheme": "vs",
+        "path": "./themes/mint-fresh.json"
+      },
+      {
+        "label": "Lava Flow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lava-flow.json"
+      },
+      {
+        "label": "Sakura Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-night.json"
+      },
+      {
+        "label": "Steel Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/steel-blue.json"
       }
     ]
   }
